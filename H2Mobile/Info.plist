@@ -27,7 +27,12 @@
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
+		<string>healthkit</string>
 	</array>
+	<key>NSHealthShareUsageDescription</key>
+	<string>H2Mobile will read this data to create personalized results for you. H2Mobile does not store or share this information.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>H2Mobile will write data to your Health App</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
